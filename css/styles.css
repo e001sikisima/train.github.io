@@ -1,6 +1,6 @@
 body {
   color :rgb(0, 0,0 );
-  font-family: verdana,sans-serif;
+  font-family: sans-serif;
   font-size:larger;
 }
 
@@ -59,10 +59,11 @@ header {
   margin-bottom: 60px;
 }
 
+
 .phota > section {
   margin-bottom: 60px;
   font-size: 25px;
-  font-style:inherit;
+  font-family: sans-serif;
 }
 
 .phota > section > h1 {
