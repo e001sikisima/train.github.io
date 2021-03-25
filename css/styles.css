@@ -13,7 +13,7 @@ header {
   width: 750px;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
+  display:flex;
 }
 
 .icon {
@@ -31,6 +31,7 @@ header {
 .info {
   /* background-color: auto; */
   margin-left: 32px;
+  font-size: 20px;
 }
 
 .info h1 {
@@ -45,14 +46,14 @@ header {
 }
 
 .phota {
-  width: 700px;
+  width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .phota > h1 {
   font-weight:bolder;
-  font-size: 40px;
+  font-size: 60px;
   text-align: center;
   margin-top: 60px;
   margin-bottom: 60px;
@@ -60,6 +61,8 @@ header {
 
 .phota > section {
   margin-bottom: 60px;
+  font-size: 25px;
+  font-style:inherit;
 }
 
 .phota > section > h1 {
