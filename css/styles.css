@@ -80,3 +80,7 @@ footer p {
   margin-bottom: 60px;
   color: gray;
 }
+
+a[href^="mailto"]::before {
+  content:"📧"
+}
