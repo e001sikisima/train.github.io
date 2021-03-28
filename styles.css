@@ -1,0 +1,97 @@
+body {
+  color :rgb(0, 0,0 );
+  font-family: sans-serif;
+  font: size 40px;
+  margin: 0;
+}
+
+header {
+  background-color: skyblue;
+}
+
+.container {
+  /* background-color:skyblue; */
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+  font-size: larger;
+}
+
+.icon {
+  /* background-color: skyblue; */
+}
+
+.icon img {
+  /* border-radius: 20px; */
+  border-radius: 50%;
+  border-width: 4px;
+  border-style: solid;
+  border-color: white;
+}
+
+.info {
+  /* background-color: auto; */
+  margin-left: 32px;
+  font-size: 30px;
+}
+
+.info h1 {
+  font-weight:900;
+  font-size: 40px;
+  margin: 0;
+}
+
+.info p {
+  margin: 0;
+  margin-bottom: 16px;
+  font-family: sans-serif;
+}
+
+.phota {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.phota > h1 {
+  font-weight:bolder;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+
+.phota section {
+  margin-bottom: 60px;
+  font-size: 30px;
+  font-family:monospace;
+}
+
+.phota > section > h1 {
+  font-weight: 600;
+}
+
+.phota p  {
+  line-height: 1.8;
+}
+ 
+footer p {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 60px;
+  color: gray;
+}
+
+a[href^="mailto"]::before {
+  content:"📧"
+}
+
+h2 {
+  font-size:45px;
+}
+
+address {
+  font-size: x-large;
+}
