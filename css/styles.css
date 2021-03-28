@@ -1,7 +1,7 @@
 body {
   color :rgb(0, 0,0 );
   font-family: sans-serif;
-  font-size:larger;
+  font: size 40px;
   margin: 0;
 }
 
@@ -15,6 +15,7 @@ header {
   margin-left: auto;
   margin-right: auto;
   display:flex;
+  font-size: larger;
 }
 
 .icon {
@@ -32,7 +33,7 @@ header {
 .info {
   /* background-color: auto; */
   margin-left: 32px;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .info h1 {
@@ -44,6 +45,7 @@ header {
 .info p {
   margin: 0;
   margin-bottom: 16px;
+  font-family: sans-serif;
 }
 
 .phota {
@@ -61,10 +63,10 @@ header {
 }
 
 
-.phota > section {
+.phota section {
   margin-bottom: 60px;
-  font-size: 25px;
-  font-family: sans-serif;
+  font-size: 30px;
+  font-family:monospace;
 }
 
 .phota > section > h1 {
@@ -84,4 +86,12 @@ footer p {
 
 a[href^="mailto"]::before {
   content:"📧"
+}
+
+h2 {
+  font-size:45px;
+}
+
+address {
+  font-size: x-large;
 }
