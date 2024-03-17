@@ -214,16 +214,16 @@
   <p>※ご要望の方は<u>名前（ニックネーム）とご用件、ご連絡先（メールアドレス等）</u>を記入をお願いします。</p>
     <p><strong>※いたずらの連絡はお止めください。</strong></p>
 
-<h1>お問い合わせフォーム</h1>
-<form action="mailto:sinkansen.h5.hayabusa@hotmail.com">
-<input type="text" placeholder="Name" name="name" required>
-<input type="email" placeholder="Email" name="email" required>
-<textarea placeholder="Message" name="message" required></textarea>
-<div class="captcha">
-  <input type="text" placeholder="Answer" name="captcha" required>
-  <input type="text" value="2+3=" name="question" required readonly>
-</div>
-<input type="submit" value="Send">
+<form action="sinkansen.h5.hayabusa@hotmail.com" method="post">
+<p class="form_tit">お名前<span class="require">必須</span></p>
+<p><input name="name" type="text"></p>
+<p class="form_tit">メールアドレス</p>
+<p><input type="email" name="mail" autocomplete="email"></p>
+<p class="form_tit">電話番号<span class="require">必須</span></p>
+<p><input type="tel" name="tel" autocomplete="tel"></p>
+<p class="form_tit">お問い合わせ内容の詳細</p>
+<p><textarea name="detail" cols="" rows=""></textarea></p>
+<p class="align-center"><input name="submit" type="submit" value="確認"></p>
 </form>
 
 <footer>
